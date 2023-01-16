@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+}
+.header-wrapper {
+    background: pink;
+    padding: 1% 9%;
+}
+.main-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 2% 0%;
+}
+
+.nav-left h2 a {
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    line-height: 20px;
+}
+.moto {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.moto h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 57px;
+}
+
+.moto p {
+    color: #000;
+    font-size: 16px;
+    padding: 1% 25%;
+    line-height: 26px;
+}
+
+button.explore-btn {
+    background: orange;
+    padding: 11px 34px;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.banner-image img {
+    width: 100%;
+}
+.quick-features {
+    display: flex;
+    align-items: center;
+}
+.quickf-right h3 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 800;
+    line-height: 42px;
+}
+
+.quickf-right h3 span {
+    color: orange;
+}
+.quickf-right h3>span.quick {
+    color: #7c7373;
+    font-weight: 400;
+}
+.quickf-right p {
+    color: #000;
+    font-size: 16px;
+    padding: 2% 38% 2% 0%;
+    line-height: 26px;
+}
+.quick-features {
+    display: flex;
+    align-items: center;
+    padding: 3% 0%;
+}
+.quick-left-images img {
+    padding: 10px;
+}
+
+.more-features {
+    display: flex;
+}
+.features-title::before {
+    content: "";
+    position: absolute;
+    background-color: orange;
+    width: 3px;
+    height: 90px;
+    
+}
+
+.features-title h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 45px;
+    padding: 0% 47% 3% 2%;
+}
+.features-title p {
+    color: #000;
+    font-size: 16px;
+    padding: 0% 42% 4% 0%;
+    line-height: 26px;
+}
+.features-box1 {
+    padding: 2%;
+    box-shadow: gray;
+    border: 1px solid white;
+    box-shadow: 1px 7px 17px #888888;
+    border-radius: 7px;
+    width: 64%;
+    margin-bottom: 15px;
+}
+.features-box1 h4 {
+    margin-bottom: 12px;
+    font-family: sans-serif;
+    line-height: 26px;
+}
+
+.features-box1 p {
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+button.exp-btn {
+    position: relative;
+    top: -9%;
+    background-color: orange;
+    padding: 5% 5%;
+    border-radius: 7px;
+    right: 18%;
+    border: 0;
+}
+    
+.exp-btn a {
+    text-decoration: none;
+    color: white;
+    
+    }
+.exp-btn span {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.facts {
+    padding: 2% 69% 2% 0%;
+}
+.facts h3 {
+    font-family: sans-serif;
+    font-size: 34px;
+    line-height: 58px;
+}
+.facts p{
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+.more-box {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+.box-1 {
+    border: 1px solid orange;
+    border-radius: 6px;
+    padding: 3%; 
+    text-align: center;
+}
+
+.more-box h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 4%;
+}
+
+.sponsors{
+    text-align: center;
+    padding: 6%;
+    width:100%;
+}
+.sponsors h3 {
+    font-family: sans-serif;
+    font-size: 40px;
+    padding: 1%;
+    font-weight: 800;
+} 
+.sponsors p {
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    padding: 1% 32% 1% 32%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer {
+    background: pink;
+    padding: 2%;
+    margin-top: 75px;
+    text-align: center;
+}
+
